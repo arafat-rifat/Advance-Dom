@@ -22,7 +22,7 @@ const openModal = function (e) {
 
 const closeModal = function () {
   modal.classList.add('hidden');
-  overlay.classList.add('hidden');
+  overlay.classList.add('hidden')
 };
 
 btnsOpenModal.forEach(btn => btn.addEventListener('click', openModal));
